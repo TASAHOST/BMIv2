@@ -52,9 +52,7 @@
     }
 }
 
-// ตัวอย่างการใช้งาน
-$weight = 65; // น้ำหนักในหน่วยกิโลกรัม
-$height = 170; // ส่วนสูงในหน่วยเซนติเมตร
+
 
 $bmiCalculator = new BMICalculator($weight, $height);
 $bmi = $bmiCalculator->calculateBMI();
